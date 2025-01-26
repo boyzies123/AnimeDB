@@ -8,16 +8,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Diagnostics;
 namespace AnimeDB
 {
     public partial class Home : Form
     {
         private SqlConnection sqlConnection;
         private String username;
+        private AnimeDatabase animeDatabase;
         public Home(String username)
         {
             this.username = username;
+            this.animeDatabase = new AnimeDatabase();
             InitializeComponent();
             try
             {
@@ -51,6 +54,36 @@ namespace AnimeDB
             {
 
             }
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SearchBar_TextChanged(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private async void buttonSubmit_ClickAsync(object sender, EventArgs e)
+        {
+            AnimeList anime = await animeDatabase.findAnime(SearchBar.Text);
+            Debug.WriteLine(SearchBar.Text + "," + "test" + anime.data[0].images + "," + anime.data[0].images.jpg);
+            MediaDetails mediaDetails = new MediaDetails(anime.data[0].images.jpg.image_url);
+            mediaDetails.Show();
+            this.Hide();
         }
     }
 }

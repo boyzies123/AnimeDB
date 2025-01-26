@@ -13,7 +13,7 @@ namespace AnimeDB
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
             AnimeDatabase animeDatabase = new AnimeDatabase();
-            animeDatabase.findAnime().Wait();
+            //animeDatabase.findAnime().Wait();
         }
     }
 }

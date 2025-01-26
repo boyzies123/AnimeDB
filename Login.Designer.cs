@@ -36,7 +36,7 @@
             label3 = new Label();
             SuspendLayout();
             // 
-            // label1
+            // label1 that displays username box
             // 
             label1.AutoSize = true;
             label1.Location = new Point(150, 151);
@@ -69,7 +69,7 @@
             textBox2.Size = new Size(213, 31);
             textBox2.TabIndex = 3;
             // 
-            // button1
+            // button1 to login
             // 
             button1.Location = new Point(303, 262);
             button1.Name = "button1";
@@ -79,7 +79,7 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // label3
+            // label3 which lets user know wrong password
             // 
             label3.AutoSize = true;
             label3.BackColor = SystemColors.Control;

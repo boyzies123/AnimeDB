@@ -24,3 +24,6 @@ C:\Users\Yi\source\repos\AnimeDB\AnimeDB\bin\Debug\net8.0-windows\runtimes\win\l
 C:\Users\Yi\source\repos\AnimeDB\AnimeDB\obj\Debug\net8.0-windows\AnimeDB.csproj.AssemblyReference.cache
 C:\Users\Yi\source\repos\AnimeDB\AnimeDB\obj\Debug\net8.0-windows\AnimeDB.csproj.Up2Date
 C:\Users\Yi\source\repos\AnimeDB\AnimeDB\obj\Debug\net8.0-windows\AnimeDB.Home.resources
+C:\Users\Yi\source\repos\AnimeDB\AnimeDB\obj\Debug\net8.0-windows\AnimeDB.sourcelink.json
+C:\Users\Yi\source\repos\AnimeDB\AnimeDB\obj\Debug\net8.0-windows\AnimeDB.CreateAccount.resources
+C:\Users\Yi\source\repos\AnimeDB\AnimeDB\obj\Debug\net8.0-windows\AnimeDB.MediaDetails.resources

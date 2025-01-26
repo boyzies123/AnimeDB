@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimeDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2734dbac766aaf03f76e824f6ef3710bca15b3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimeDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimeDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
