@@ -81,7 +81,7 @@ namespace AnimeDB
         {
             AnimeList anime = await animeDatabase.findAnime(SearchBar.Text);
             Debug.WriteLine(SearchBar.Text + "," + "test" + anime.data[0].images + "," + anime.data[0].images.jpg);
-            MediaDetails mediaDetails = new MediaDetails(anime.data[0].images.jpg.image_url);
+            MediaDetails mediaDetails = new MediaDetails(anime.data[0].images.jpg.image_url, anime.data[1].images.jpg.image_url, anime.data[2].images.jpg.image_url, anime.data[3].images.jpg.image_url, anime.data[4].images.jpg.image_url, anime.data[5].images.jpg.image_url, this, anime);
             mediaDetails.Show();
             this.Hide();
         }
